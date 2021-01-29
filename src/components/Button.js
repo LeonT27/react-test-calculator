@@ -8,7 +8,7 @@ class Button extends Component {
     render() {
         return (
             <div>
-                <button className="calc-button">1</button>
+                <button className="calc-button">{this.props.symbol}</button>
             </div>
         )
     }
