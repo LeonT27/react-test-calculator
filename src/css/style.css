@@ -1,14 +1,13 @@
 .App {
-    width: 75%;
+    width: 50%;
     margin: 0 auto;
 }
 
 .floaty-last {
-    position: absolute;
-    right: 50px;
     z-index: 99;
-    top: 10px;
     color: #aaa;
+    float: right;
+    margin-right: 50px;
 }
 
 .result {
